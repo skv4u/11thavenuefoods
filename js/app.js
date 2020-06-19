@@ -93,4 +93,18 @@ $(document).ready(function() {
 
     }); // left menu link3 click() scroll END
 
+    $('input').focus(function() {
+        $(this).parents('.form-group').addClass('focused');
+    });
+
+    $('input').blur(function() {
+        var inputValue = $(this).val();
+        if (inputValue == "") {
+            $(this).removeClass('filled');
+            $(this).parents('.form-group').removeClass('focused');
+        } else {
+            $(this).addClass('filled');
+        }
+    })
+
 }); // ready() END
