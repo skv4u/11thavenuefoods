@@ -4,6 +4,9 @@ body {
   font-size: 14px;
   font-weight: 300;
 }
+h4{
+  font-size:16px;
+}
 p {
   font-size: 15px;
   line-height: 26px;
@@ -526,4 +529,11 @@ ul.abt-info {
 }
 .bt{
 	border:0;
+}
+
+.w50 {
+  width: 50%;
+  padding: 5px;
+  margin: 20px;
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
 }

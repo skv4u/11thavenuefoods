@@ -17,7 +17,7 @@
   <div class="container">
     <div class="row pl-0">
       <div class="col-md-12">
-		   <img src="img/fruits.png" class="img-fluid float-right">
+		   <img src="img/farming.png" class="img-fluid float-right w50">
         <h3 class=" mb-4">History</h3>
        <p>11th Avenue Foods was originally started based on the demands of the local clienteles and then it was transformed into a full-service provider getting products right to the customers. We believe in hard work, the best product available, competitive pricing, great customer service, natural and healthy way of farming. These standards enabled 11th Avenue Foods to outgrow their original location and open multiple locations in South East Asia.</p>
 <p>
