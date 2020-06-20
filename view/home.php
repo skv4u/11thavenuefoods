@@ -408,7 +408,8 @@
                   husk. The three basic steps of parboiling are soaking,
                   steaming and drying. These steps make the rice easier to
                   process by hand, while also boosting its nutritional profile,
-                  changing its texture, and making it more resistant to weevils.</p>
+                  changing its texture, and making it more resistant to weevils.
+                  </p>
 
               </div>
               <a href="./rice" class="read-more">Read More</a>
