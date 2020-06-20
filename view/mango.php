@@ -4,8 +4,8 @@
     <div class="container">
       <h2>Mango</h2>
       <ol>
-        <li> <a href="#"> <span>Home</span> </a> </li>
-        <li> <a href="#"> <span>Mango</span> </a> </li>
+        <li> <a href="./"> <span>Home</span> </a> </li>
+        <li> <a href="./mango"> <span>Mango</span> </a> </li>
       </ol>
     </div>
     <div class="category-cover hidden-sm-down"> <img class="img-fluid" alt="" src="img/mango-banner.png" style="display: inline;"> </div>

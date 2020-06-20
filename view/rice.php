@@ -4,8 +4,8 @@
     <div class="container">
       <h2>Rice</h2>
       <ol>
-        <li> <a href="#"> <span>Home</span> </a> </li>
-        <li> <a href="#"> <span>Rice</span> </a> </li>
+        <li> <a href="./"> <span>Home</span> </a> </li>
+        <li> <a href="./rice"> <span>Rice</span> </a> </li>
       </ol>
     </div>
     <div class="category-cover hidden-sm-down"> <img class="img-fluid" alt="" src="img/fruit.png" style="display: inline;"> </div>
@@ -177,15 +177,17 @@
             Typically, 100 grams of uncooked rice produces around 240 to 260 grams of cooked grains, the difference in weight being due to absorbed cooking water.
           </p>
 
-          <h4 class="mb-4">Brown Jasmine Rice</h4>
-          <img src="img/jasmine-brownrice.png" class="img-fluid  imageauto">
-          <p>
+          <h4 class="mb-4 mt-5">Brown Jasmine Rice</h4>
+          <img src="img/jasmine-brownrice.png" class="img-fluid  imageauto float-right">
+          <p class="mt-5">
+         
             Brown rice is a whole-grain rice with the inedible outer hull
             removed. This is as compared with white rice, which is the
             same grain, also with hull removed, but also with the bran
             layer and cereal germ removed. Red rice, gold rice, and black
             rice are all whole rices, but with differently pigmented outer
             layers.</p>
+            <div class="clearfix"></div>
           <div class="col-md-12 text-center padtb-100"><img src="img/divider.png"></div>
 
           <h4 class="mt-6 mb-4">Basmathi Rice</h4>

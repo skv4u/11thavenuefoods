@@ -235,9 +235,8 @@ ul.abt-info {
 .blog-content h3 a:hover {
   color: #34ad54
 }
-.blog-content .read-more {
-  font-family: work sans, sans-serif;
-  color: #263a4f;
+.blog-content .read-more { 
+  color: #333;
   font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
@@ -252,7 +251,7 @@ ul.abt-info {
   position: absolute;
   content: "";
   width: 30px;
-  height: 4px;
+  height: 3px;
   left: 0;
   top: calc(50% - 2px);
 }
@@ -328,6 +327,10 @@ ul.abt-info {
 .footer li a {
   text-transform: uppercase;
 }
+.footer li a:hover {
+  color:#000;
+}
+
 .footer h3 {
   font-size: 22px;
   color: #fff;
@@ -568,7 +571,10 @@ ul.abt-info {
 
   font-size:18px;
   font-weight:500;
-}.carousel-control-next,
+  color:#000;
+}
+
+.carousel-control-next,
 .carousel-control-prev {
     filter: invert(100%);
 }
@@ -584,4 +590,8 @@ ul.abt-info {
 
 .blog-content h3{
   font-size:18px;
+}
+
+a:hover{
+  text-decoration:none;
 }

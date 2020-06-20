@@ -18,7 +18,7 @@
     <div class="carousel-item"> <img src="img/slider-2.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h1>Mango Pulp</h1>
-        <p style="color:#4e640c !important;">A Healthy Outside Starts From Inside</p>
+        <p>A Healthy Outside Starts From Inside</p>
       </div>
     </div>
     <div class="carousel-item"> <img src="img/slider-3.png" class="d-block w-100" alt="...">
@@ -31,7 +31,7 @@
     <div class="carousel-item"> <img src="img/slider-4.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h1>Young Coconut</h1>
-        <p style="color:#000 !important;">An Ocean breese puts a mind at ease</p>
+        <p>An Ocean breeze puts a mind at ease</p>
       </div>
 
     </div>
@@ -65,7 +65,7 @@
       <div class="col-md-4 col-sm-6 xs-padding">
         <div class="pr-item active text-center"> <span class="pr-img"><img src="img/pineapple.png"></span>
           <h3>Pineapple</h3>
-          <p>The pineapple (Ananas comosus) is a tropical plant with an edible fruit, also called a pineapple </p>
+          <p>The pineapple  is a tropical plant with an edible fruit, also called a pineapple, &amp; the most economically significant plant in the family.  </p>
           <a href="./pineapple">Read More</a>
         </div>
       </div>
@@ -113,7 +113,7 @@
       <div class="gallery-btn">
         <button class="btn btn-default active filter-button" data-filter="all">All</button>
         <button class="btn btn-default filter-button" data-filter="rice">Rice</button>
-        <button class="btn btn-default filter-button" data-filter="fruits">Fruits</button>
+        <button class="btn btn-default filter-button" data-filter="coconut">Coconut</button>
         <button class="btn btn-default filter-button" data-filter="mango">Mango</button>
         <button class="btn btn-default filter-button" data-filter="pineapple">Pineapple</button>
       </div>
@@ -417,6 +417,72 @@
         </div>
       </div>
 
+
+      <div class="gallery_product col-md-4 filter coconut">
+        <div class="sm-padding">
+          <div class="b-item">
+            <div class="b-thumb"> <img src="img/coconut-water.png" class="img-fluid"></div>
+            <div class="blog-content">
+              <h3>Sri Coconut Water</h3>
+              <div class="slimScroll">
+                <p>Coconut water, less commonly known as coconut juice, is the
+                  clear liquid inside coconuts. In early development, it serves as a
+                  suspension for the endosperm of the coconut during the nuclear
+                  phase of development.</p>
+
+              </div>
+              <a href="./coconut" class="read-more">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery_product col-md-4 filter mango">
+        <div class="sm-padding">
+          <div class="b-item">
+            <div class="b-thumb"> <img src="img/mango-juice.png" class="img-fluid"></div>
+            <div class="blog-content">
+              <h3>Sri Mango Juice</h3>
+              <div class="slimScroll">
+                <p>Mango is known as the king of fruits. It grows mostly in
+                  tropical climates and has been favourite among humans
+                  for over 4000 years. Mango and its juice, commonly
+                  known as “aam ras” contain many vital vitamins and
+                  minerals that are essential for a healthy human body.
+                  Mango is a very sweet fruit and hence one does not need
+                  to add sugar in it, and hence it makes it very beneficial
+                  for health.</p>
+
+              </div>
+              <a href="./mango" class="read-more">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+     
+
+      <div class="gallery_product col-md-4 filter pineapple">
+        <div class="sm-padding">
+          <div class="b-item">
+            <div class="b-thumb"> <img src="img/pineapple-juice.png" class="img-fluid"></div>
+            <div class="blog-content">
+              <h3>Sri Pineapple Juice</h3>
+              <div class="slimScroll">
+                <p>Pineapple juice is a liquid made from pressing the natural
+                  liquid from the pulp of the pineapple tropical plant.
+                  Numerous pineapple varieties may be used to manufacture
+                  commercial pineapple juice, the most common of which are
+                  Smooth Cayenne, Red Spanish, Queen, and Abacaxi.</p>
+
+              </div>
+              <a href="./pineapple" class="read-more">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </div>
   </div>

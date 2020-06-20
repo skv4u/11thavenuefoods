@@ -52,9 +52,11 @@ line-height: 22px !important;
     background-color: #eee9ee;
 }
 .scrollBar {
-    background-color: #60F509;
-    border-radius: 10px;
-    opacity: 0.5;
+  
+        background-color: #34ad54;
+        border-radius: 10px;
+        opacity: 0.8;
+  
 }
 .scroll-bar{
     background-color: #14D1E0;
