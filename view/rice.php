@@ -45,7 +45,7 @@ The following anatomy terms may be used throughout this guide when discussing th
 <strong>Germ </strong>– Found under the hull, the germ, or rice kernel, is nutrient-dense. Full of B vitamins, minerals, and proteins, it helps give rice its color and added nutritional benefits.</p></li>
 </ul>	
 
-<h3 class="mb-4">TYPES OF RICE</h3>
+<h3 class="mt-6 mb-4">Type Of Rice</h3>
 
 <ul>
     <h4 class="mb-4">
@@ -141,7 +141,36 @@ Aroma is another factor to consider when cooking with rice. Certain rice varieti
 </ul>
 
 
+<h3 class="mt-6 mb-4">Jasmine Rice</h3>
 
+<h4 class="mb-4">White Rice</h4>
+<img src="img/jasmine-whiterice.png" class="img-fluid float-right w50">
+<p>
+White rice is milled rice that has had its husk, bran, and germ removed. This alters the flavor, texture and appearance of the rice and helps prevent spoilage and extend its storage life. After milling, the rice is polished, resulting in a seed with a bright, white, shiny appearance.
+</p>
+<p>
+The milling and polishing processes both remove nutrients. A diet based on unenriched white rice leaves many people vulnerable to the neurological disease beriberi, due to a deficiency of thiamine (vitamin B1). White rice is often enriched with some of the nutrients stripped from it during its processing. Enrichment of white rice with B1, B3, and iron is required by law in the United States. As with all natural foods, the precise nutritional composition of rice varies slightly depending on the variety, soil conditions, environmental conditions and types of fertilizers.
+</p>
+<p>
+Adopted over brown rice in the second half of the 19th century because it was favored by traders, white rice has led to a beriberi epidemic in Asia.
+</p>
+<p>
+At various times, starting in the 19th century, brown rice and wild rice have been advocated as more healthful alternatives. The bran in brown rice contains significant dietary fiber and the germ contains many vitamins and minerals.
+</p>
+
+<p>
+Typically, 100 grams of uncooked rice produces around 240 to 260 grams of cooked grains, the difference in weight being due to absorbed cooking water.
+</p>
+
+<h4 class="mb-4">Brown Jasmine Rice</h4>
+<img src="img/jasmine-brownrice.png" class="img-fluid float-right w50">
+<p>
+Brown rice is a whole-grain rice with the inedible outer hull
+removed. This is as compared with white rice, which is the
+same grain, also with hull removed, but also with the bran
+layer and cereal germ removed. Red rice, gold rice, and black
+rice are all whole rices, but with differently pigmented outer
+layers.</p>
       </div>
       
     </div>
