@@ -22,7 +22,7 @@
         <p>11th Avenue Foods
           13 Deborah Dr,
           Somerset NJ 08873</p>
-        <h6><i class="fa fa-mobile"></i> Phone :</h6>
+        <h6><i class="fa fa-phone"></i> Phone :</h6>
         <p>+17327986726</p>
         <h6><i class="fa fa-envelope"></i> Email :</h6>
         <p>business@11thavenuefoods.com</p>
