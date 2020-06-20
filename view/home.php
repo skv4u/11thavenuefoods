@@ -4,6 +4,7 @@
     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active"> <img src="img/slider-1.jpg" class="d-block w-100" alt="...">
@@ -17,16 +18,25 @@
     <div class="carousel-item"> <img src="img/slider-2.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h1>Mango Pulp</h1>
-        <p style="color:#4e640c !important;">This is the sweet, golden pulp derived from Indian Alphonso mangoes</p>
+        <p style="color:#4e640c !important;">A Healthy Outside Starts From Inside</p>
       </div>
-    </div><!--
-    <div class="carousel-item"> <img src="img/slider-1.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-      </div>
--->
     </div>
+    <div class="carousel-item"> <img src="img/slider-3.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Pineapple Juice</h1>
+        <p>When Life Gives Me A Pineapple I Make Juice!</p>
+      </div>
+
+    </div>
+    <div class="carousel-item"> <img src="img/slider-4.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      <h1>Young Coconut</h1>
+        <p style="color:#000 !important;">An Ocean breese puts a mind at ease</p>
+      </div>
+
+    </div>
+
+  
   </div>
   <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
 <!---banner ends---->
@@ -39,21 +49,21 @@
     <div class="pr-wrap row">
       <div class="col-md-4 col-sm-6 xs-padding">
         <div class="pr-item active text-center"> <span class="pr-img"><img src="img/rice.png"></span>
-          <h3>Lorem Ipsum</h3>
-          <p>The passage is attributed to an unknown typesetter in the 15th century who is  have scram of Cicero's De Finibus</p>
-          <a href="about.html">Read More</a> </div>
+          <h3>Rice</h3>
+          <p>Rice is a staple in any kitchen, and with so many different types, it lends itself to a limitless number of recipes</p>
+          <a href="./rice">Read More</a> </div>
       </div>
       <div class="col-md-4 col-sm-6 xs-padding">
         <div class="pr-item active text-center"><span class="pr-img"> <img src="img/mango.png"></span>
-          <h3>Lorem Ipsum</h3>
-          <p>The passage is attributed to an unknown typesetter in the 15th century who is  have scrats of Cicero's De Finibus</p>
-          <a href="about.html">Read More</a> </div>
+          <h3>Mango</h3>
+          <p>A mango is a juicy stone fruit  produced from numerous species of tropical trees belonging to the flowering plant genus Mangifera</p>
+          <a href="./mango">Read More</a> </div>
       </div>
       <div class="col-md-4 col-sm-6 xs-padding">
         <div class="pr-item active text-center"> <span class="pr-img"><img src="img/pineapple.png"></span>
-          <h3>Lorem Ipsum</h3>
-          <p>The passage is attributed to an unknown typesetter in o is thought to have scrambled parts of Cicero's De Finibus </p>
-          <a href="about.html">Read More</a> </div>
+          <h3>Pineapple</h3>
+          <p>The pineapple (Ananas comosus) is a tropical plant with an edible fruit, also called a pineapple </p>
+          <a href="./pineapple">Read More</a> </div>
       </div>
     </div>
   </div>
@@ -71,15 +81,14 @@
           <div class="section-heading"> <img src="img/leaf.png" alt="img">
             <h2>We Provide Good Food <br>
               For Your Family!</h2>
-            <p>The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
+            <p>11th Avenue Foods was originally started based on the demands of the local clienteles and then it was transformed into a full-service provider getting products right to the customers. We believe in hard work, the best product available, competitive pricing, great customer service, natural and healthy way of farming. </p>
           </div>
           <ul class="abt-info">
             <li><i class="fa fa-hand-o-right"></i>Premium Quality</li>
             <li><i class="fa fa-hand-o-right"></i>Harvest Everyday</li>
             <li><i class="fa fa-hand-o-right"></i>100% Organic</li>
-            <li><i class="fa fa-hand-o-right"></i>Fast Delivery</li>
           </ul>
-          <a class="default-btn" href="shop.html">Read More<span></span></a> </div>
+          <a class="default-btn" href="./aboutus">Read More<span></span></a> </div>
       </div>
     </div>
   </div>
@@ -91,8 +100,7 @@
   <div class="container">
     <div class="section-heading mb-40 text-center"> <img src="img/leaf.png" alt="img">
       <h2>Our Products</h2>
-      <p>The passage is attributed to an unknown typesetter in the 15th century who is thou<br>
-        ght to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
+      <p>Reliable help in sourcing Rice, fruit juices, purees, and concentrates for food and beverage manufacturers. To food manufacturers, 11th Avenue Foods partners provide responsive service along with expert professional representation for Rice and fruit processors. </p>
     </div>
   </div>
   <div class="container">

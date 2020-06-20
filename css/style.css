@@ -568,4 +568,16 @@ ul.abt-info {
 
   font-size:18px;
   font-weight:500;
+}.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.carousel-indicators li {
+
+  width: 30px;
+  height: 5px;
+
+  background-color: #004b0d;
+ 
 }
