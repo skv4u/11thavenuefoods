@@ -18,7 +18,7 @@
     <div class="row pl-0">
       <div class="col-md-12">
 		   <img src="img/fruits.png" class="img-fluid float-right w50">
-        <h3 class=" mb-4">Mango</h3>
+     
       
      <p>   A mango is a juicy stone fruit (drupe) produced from numerous species of tropical trees belonging to the flowering plant genus Mangifera, cultivated mostly for their edible fruit.
 </p>
@@ -27,8 +27,6 @@ Most of these species are found in nature as wild mangoes. The genus belongs to 
 </p> <p>
 Worldwide, there are several hundred cultivars of mango. Depending on the cultivar, mango fruit varies in size, shape, sweetness, skin color, and flesh color which may be pale yellow, gold, or orange. Mango is the national fruit of India and Pakistan, and the national tree of Bangladesh. It is the unofficial national fruit of the Philippines.
 </p>  
-
-
 <h3 class=" mb-4">Cultivation </h3>
 <p>
 Mango trees grow to 35–40 m (115–131 ft) tall, with a crown radius of 10 m (33 ft). The trees are long-lived, as some specimens still fruit after 300 years. In deep soil, the taproot descends to a depth of 6 m (20 ft), with profuse, wide-spreading feeder roots and anchor roots penetrating deeply into the soil. The leaves are evergreen, alternate, simple, 15–35 cm (5.9–13.8 in) long, and 6–16 cm (2.4–6.3 in) broad; when the leaves are young they are orange-pink, rapidly changing to a dark, glossy red, then dark green as they mature. The flowers are produced in terminal panicles 10–40 cm (3.9–15.7 in) long; each flower is small and white with five petals 5–10 mm (0.20–0.39 in) long, with a mild, sweet fragrance. Over 500 varieties of mangoes are known, many of which ripen in summer, while some give a double crop. The fruit takes four to five months from flowering to ripen.
@@ -39,9 +37,7 @@ The ripe fruit varies according to cultivar in size, shape, color, sweetness, an
 <p>
 Ripe intact mangoes give off a distinctive resinous, sweet smell. Inside the pit 1–2 mm (0.039–0.079 in) thick is a thin lining covering a single seed, 4–7 cm (1.6–2.8 in) long. Mangoes have recalcitrant seeds which do not survive freezing and drying. Mango trees grow readily from seeds, with germination success highest when seeds are obtained from mature fruits.
 </p>
-
 <h3 class=" mb-4">Food constituents</h3>
-
 <ul>
 <h4 class=" mb-4">Nutrients</h4>
 <li>
@@ -62,8 +58,6 @@ Phytochemical and nutrient content appears to vary across mango cultivars. Up to
 The pigment euxanthin, known as Indian yellow, is often thought to be produced from the urine of cattle fed mango leaves; the practice is described as having been outlawed in 1908 because of malnutrition of the cattle and possible urushiol poisoning. This supposed origin of euxanthin appears to rely on a single, anecdotal source, and Indian legal records do not outlaw such a practice
 </p></li>
 </ul>
-
-
 </div>
       
     </div>
