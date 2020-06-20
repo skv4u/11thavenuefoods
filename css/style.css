@@ -549,3 +549,23 @@ ul.abt-info {
 .contact i{
   color:#34ad54;
 }
+
+.carousel-caption {
+
+  top: 30%;
+  left: 15%;
+
+  text-align: left;
+}
+
+.carousel-caption h1{
+  font-size:40px;
+  color:#000;
+  font-weight:600;
+}
+
+.carousel-caption p{
+
+  font-size:18px;
+  font-weight:500;
+}
