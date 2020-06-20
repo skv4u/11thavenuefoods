@@ -211,7 +211,7 @@ ul.abt-info {
 }
 .blog-content {
   background-color: #fff;
-  padding: 30px
+  padding: 20px
 }
 .bg-dark .blog-content {
   background-color: #242323;
@@ -580,4 +580,8 @@ ul.abt-info {
 
   background-color: #004b0d;
  
+}
+
+.blog-content h3{
+  font-size:18px;
 }
