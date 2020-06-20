@@ -8,7 +8,7 @@
         <li> <a href="./mango"> <span>Mango</span> </a> </li>
       </ol>
     </div>
-    <div class="category-cover hidden-sm-down"> <img class="img-fluid" alt="" src="img/mango-banner.png" style="display: inline;"> </div>
+    <div class="category-cover hidden-sm-down"> <img class="img-fluid" alt="" src="./img/mango-banner.png" style="display: inline;"> </div>
   </nav>
 </section>
 <!--innner banned ends--->
@@ -17,7 +17,7 @@
   <div class="container">
     <div class="row pl-0">
       <div class="col-md-12">
-        <img src="img/fruits.png" class="img-fluid float-right w50">
+        <img src="./img/fruits.png" class="img-fluid float-right w50">
 
 
         <p> A mango is a juicy stone fruit (drupe) produced from numerous species of tropical trees belonging to the flowering plant genus Mangifera, cultivated mostly for their edible fruit.

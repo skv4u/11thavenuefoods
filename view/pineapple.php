@@ -8,7 +8,7 @@
         <li> <a href="./pineapple"> <span>Pineapple</span> </a> </li>
       </ol>
     </div>
-    <div class="category-cover hidden-sm-down"> <img class="img-fluid" alt="" src="img/pineapple-banner.png" style="display: inline;"> </div>
+    <div class="category-cover hidden-sm-down"> <img class="img-fluid" alt="" src="./img/pineapple-banner.png" style="display: inline;"> </div>
   </nav>
 </section>
 <!--innner banned ends--->
@@ -17,7 +17,7 @@
   <div class="container">
     <div class="row pl-0">
       <div class="col-md-12">
-        <img src="img/pine-apple.png" class="img-fluid float-right w50">
+        <img src="./img/pine-apple.png" class="img-fluid float-right w50">
 
 
         <p>

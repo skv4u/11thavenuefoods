@@ -8,7 +8,7 @@
         <li> <a href="./contact"> <span>Contact us</span> </a> </li>
       </ol>
     </div>
-    <div class="category-cover hidden-sm-down"> <img class="img-fluid" alt="" src="img/contact-banner.png" style="display: inline;"> </div>
+    <div class="category-cover hidden-sm-down"> <img class="img-fluid" alt="" src="./img/contact-banner.png" style="display: inline;"> </div>
   </nav>
 </section>
 <!--innner banned ends---> 

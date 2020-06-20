@@ -7,7 +7,7 @@
     <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
   </ol>
   <div class="carousel-inner">
-    <div class="carousel-item active"> <img src="img/slider-1.jpg" class="d-block w-100" alt="...">
+    <div class="carousel-item active"> <img src="./img/slider-1.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h1>Live With Organic Food</h1>
         <h1>Live Healthy</h1>
@@ -15,20 +15,20 @@
       </div>
     </div>
 
-    <div class="carousel-item"> <img src="img/slider-2.png" class="d-block w-100" alt="...">
+    <div class="carousel-item"> <img src="./img/slider-2.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h1>Mango Pulp</h1>
         <p>A Healthy Outside Starts From Inside</p>
       </div>
     </div>
-    <div class="carousel-item"> <img src="img/slider-3.png" class="d-block w-100" alt="...">
+    <div class="carousel-item"> <img src="./img/slider-3.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h1>Pineapple Juice</h1>
         <p>When Life Gives Me A Pineapple I Make Juice!</p>
       </div>
 
     </div>
-    <div class="carousel-item"> <img src="img/slider-4.png" class="d-block w-100" alt="...">
+    <div class="carousel-item"> <img src="./img/slider-4.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h1>Young Coconut</h1>
         <p>An Ocean breeze puts a mind at ease</p>
@@ -49,21 +49,21 @@
   <div class="container padd-btm">
     <div class="pr-wrap row">
       <div class="col-md-4 col-sm-6 xs-padding">
-        <div class="pr-item active text-center"> <span class="pr-img"><img src="img/rice.png"></span>
+        <div class="pr-item active text-center"> <span class="pr-img"><img src="./img/rice.png"></span>
           <h3>Rice</h3>
           <p>Rice is a staple in any kitchen, and with so many different types, it lends itself to a limitless number of recipes</p>
           <a href="./rice">Read More</a>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 xs-padding">
-        <div class="pr-item active text-center"><span class="pr-img"> <img src="img/mango.png"></span>
+        <div class="pr-item active text-center"><span class="pr-img"> <img src="./img/mango.png"></span>
           <h3>Mango</h3>
           <p>A mango is a juicy stone fruit produced from numerous species of tropical trees belonging to the flowering plant genus Mangifera</p>
           <a href="./mango">Read More</a>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 xs-padding">
-        <div class="pr-item active text-center"> <span class="pr-img"><img src="img/pineapple.png"></span>
+        <div class="pr-item active text-center"> <span class="pr-img"><img src="./img/pineapple.png"></span>
           <h3>Pineapple</h3>
           <p>The pineapple  is a tropical plant with an edible fruit, also called a pineapple, &amp; the most economically significant plant in the family.  </p>
           <a href="./pineapple">Read More</a>
@@ -78,11 +78,11 @@
   <div class="container">
     <div class="about-wrap row">
       <div class="col-md-6">
-        <div class="about-img"> <img src="img/fruits.png" alt="fruits" class="img-fluid"> </div>
+        <div class="about-img"> <img src="./img/fruits.png" alt="fruits" class="img-fluid"> </div>
       </div>
       <div class="col-md-6 xs-padding">
         <div class="abtc">
-          <div class="section-heading"> <img src="img/leaf.png" alt="img">
+          <div class="section-heading"> <img src="./img/leaf.png" alt="img">
             <h2>We Provide Good Food <br>
               For Your Family!</h2>
             <p>11th Avenue Foods was originally started based on the demands of the local clienteles and then it was transformed into a full-service provider getting products right to the customers. We believe in hard work, the best product available, competitive pricing, great customer service, natural and healthy way of farming. </p>
@@ -92,7 +92,7 @@
             <li><i class="fa fa-hand-o-right"></i>Harvest Everyday</li>
             <li><i class="fa fa-hand-o-right"></i>100% Organic</li>
           </ul>
-          <a class="default-btn" href="./aboutus">Read More<span></span></a>
+          <a class="default-btn" href="./mango">Read More<span></span></a>
         </div>
       </div>
     </div>
@@ -103,7 +103,7 @@
 <!--section 4 starts------->
 <section class="padtb-100 bg-grey">
   <div class="container">
-    <div class="section-heading mb-40 text-center"> <img src="img/leaf.png" alt="img">
+    <div class="section-heading mb-40 text-center"> <img src="./img/leaf.png" alt="img">
       <h2>Our Products</h2>
       <p>Reliable help in sourcing Rice, fruit juices, purees, and concentrates for food and beverage manufacturers. To food manufacturers, 11th Avenue Foods partners provide responsive service along with expert professional representation for Rice and fruit processors. </p>
     </div>
@@ -122,7 +122,7 @@
       <div class="gallery_product col-md-4 filter rice">
         <div class="sm-padding">
           <div class="b-item">
-            <div class="b-thumb"> <img src="img/biryani-basmathi.png" class="img-fluid"></div>
+            <div class="b-thumb"> <img src="./img/biryani-basmathi.png" class="img-fluid"></div>
             <div class="blog-content">
               <h3>Biryani Basmati Rice</h3>
               <div class="slimScroll">
@@ -141,7 +141,7 @@
       <div class="gallery_product col-md-4 filter rice">
         <div class="sm-padding">
           <div class="b-item">
-            <div class="b-thumb"> <img src="img/tradition-basmathi.png" class="img-fluid"></div>
+            <div class="b-thumb"> <img src="./img/tradition-basmathi.png" class="img-fluid"></div>
             <div class="blog-content">
               <h3>Traditional Basmati Rice</h3>
               <div class="slimScroll">
@@ -160,7 +160,7 @@
       <div class="gallery_product col-md-4 filter rice">
         <div class="sm-padding">
           <div class="b-item">
-            <div class="b-thumb"> <img src="img/exotic-long.png" class="img-fluid"></div>
+            <div class="b-thumb"> <img src="./img/exotic-long.png" class="img-fluid"></div>
             <div class="blog-content">
               <h3>Exotic Long Basmati Rice</h3>
               <div class="slimScroll">
@@ -182,7 +182,7 @@
       <div class="gallery_product col-md-4 filter rice">
         <div class="sm-padding">
           <div class="b-item">
-            <div class="b-thumb"> <img src="img/super-basmati.png" class="img-fluid"></div>
+            <div class="b-thumb"> <img src="./img/super-basmati.png" class="img-fluid"></div>
             <div class="blog-content">
               <h3>Super Basmati Rice</h3>
               <div class="slimScroll">
@@ -203,7 +203,7 @@
       <div class="gallery_product col-md-4 filter rice">
         <div class="sm-padding">
           <div class="b-item">
-            <div class="b-thumb"> <img src="img/sella-basmati.png" class="img-fluid"></div>
+            <div class="b-thumb"> <img src="./img/sella-basmati.png" class="img-fluid"></div>
             <div class="blog-content">
               <h3>Sella Basmati Rice XXL</h3>
               <div class="slimScroll">
@@ -224,7 +224,7 @@
       <div class="gallery_product col-md-4 filter rice">
         <div class="sm-padding">
           <div class="b-item">
-            <div class="b-thumb"> <img src="img/brown-basmati.png" class="img-fluid"></div>
+            <div class="b-thumb"> <img src="./img/brown-basmati.png" class="img-fluid"></div>
             <div class="blog-content">
               <h3>Brown Basmati Rice</h3>
               <div class="slimScroll">
@@ -246,7 +246,7 @@
       <div class="gallery_product col-md-4 filter rice">
         <div class="sm-padding">
           <div class="b-item">
-            <div class="b-thumb"> <img src="img/organic-basmati.png" class="img-fluid"></div>
+            <div class="b-thumb"> <img src="./img/organic-basmati.png" class="img-fluid"></div>
             <div class="blog-content">
               <h3>Sri Organic Basmati Rice</h3>
               <div class="slimScroll">
@@ -272,7 +272,7 @@
       <div class="gallery_product col-md-4 filter rice">
         <div class="sm-padding">
           <div class="b-item">
-            <div class="b-thumb"> <img src="img/exotic-long-xxl.png" class="img-fluid"></div>
+            <div class="b-thumb"> <img src="./img/exotic-long-xxl.png" class="img-fluid"></div>
             <div class="blog-content">
               <h3>Exotic Long Basmati Rice XXL</h3>
               <div class="slimScroll">
@@ -295,7 +295,7 @@
       <div class="gallery_product col-md-4 filter rice">
         <div class="sm-padding">
           <div class="b-item">
-            <div class="b-thumb"> <img src="img/golden-sella.png" class="img-fluid"></div>
+            <div class="b-thumb"> <img src="./img/golden-sella.png" class="img-fluid"></div>
             <div class="blog-content">
               <h3>Golden Sella Basmati Rice</h3>
               <div class="slimScroll">
@@ -316,7 +316,7 @@
       <div class="gallery_product col-md-4 filter rice">
         <div class="sm-padding">
           <div class="b-item">
-            <div class="b-thumb"> <img src="img/black-rice.png" class="img-fluid"></div>
+            <div class="b-thumb"> <img src="./img/black-rice.png" class="img-fluid"></div>
             <div class="blog-content">
               <h3>Sri Black Rice</h3>
               <div class="slimScroll">
@@ -338,7 +338,7 @@
       <div class="gallery_product col-md-4 filter rice">
         <div class="sm-padding">
           <div class="b-item">
-            <div class="b-thumb"> <img src="img/jasmine-rice.png" class="img-fluid"></div>
+            <div class="b-thumb"> <img src="./img/jasmine-rice.png" class="img-fluid"></div>
             <div class="blog-content">
               <h3>Sri Jasmine Rice</h3>
               <div class="slimScroll">
@@ -359,7 +359,7 @@
       <div class="gallery_product col-md-4 filter rice">
         <div class="sm-padding">
           <div class="b-item">
-            <div class="b-thumb"> <img src="img/brown-rice.png" class="img-fluid"></div>
+            <div class="b-thumb"> <img src="./img/brown-rice.png" class="img-fluid"></div>
             <div class="blog-content">
               <h3>Sri Brown Rice</h3>
               <div class="slimScroll">
@@ -380,7 +380,7 @@
       <div class="gallery_product col-md-4 filter rice">
         <div class="sm-padding">
           <div class="b-item">
-            <div class="b-thumb"> <img src="img/long-grain-white.png" class="img-fluid"></div>
+            <div class="b-thumb"> <img src="./img/long-grain-white.png" class="img-fluid"></div>
             <div class="blog-content">
               <h3>Sri Long Grain White Rice</h3>
               <div class="slimScroll">
@@ -400,7 +400,7 @@
       <div class="gallery_product col-md-4 filter rice">
         <div class="sm-padding">
           <div class="b-item">
-            <div class="b-thumb"> <img src="img/par-boiled.png" class="img-fluid"></div>
+            <div class="b-thumb"> <img src="./img/par-boiled.png" class="img-fluid"></div>
             <div class="blog-content">
               <h3>Sri Parboiled Rice</h3>
               <div class="slimScroll">
@@ -421,7 +421,7 @@
       <div class="gallery_product col-md-4 filter coconut">
         <div class="sm-padding">
           <div class="b-item">
-            <div class="b-thumb"> <img src="img/coconut-water.png" class="img-fluid"></div>
+            <div class="b-thumb"> <img src="./img/coconut-water.png" class="img-fluid"></div>
             <div class="blog-content">
               <h3>Sri Coconut Water</h3>
               <div class="slimScroll">
@@ -440,7 +440,7 @@
       <div class="gallery_product col-md-4 filter mango">
         <div class="sm-padding">
           <div class="b-item">
-            <div class="b-thumb"> <img src="img/mango-juice.png" class="img-fluid"></div>
+            <div class="b-thumb"> <img src="./img/mango-juice.png" class="img-fluid"></div>
             <div class="blog-content">
               <h3>Sri Mango Juice</h3>
               <div class="slimScroll">
@@ -467,7 +467,7 @@
       <div class="gallery_product col-md-4 filter pineapple">
         <div class="sm-padding">
           <div class="b-item">
-            <div class="b-thumb"> <img src="img/pineapple-juice.png" class="img-fluid"></div>
+            <div class="b-thumb"> <img src="./img/pineapple-juice.png" class="img-fluid"></div>
             <div class="blog-content">
               <h3>Sri Pineapple Juice</h3>
               <div class="slimScroll">
@@ -493,7 +493,7 @@
 <!--section 4 starts------->
 <section class="padtb-100">
   <div class="container">
-    <div class="section-heading mb-40 text-center"> <img src="img/leaf.png" alt="img">
+    <div class="section-heading mb-40 text-center"> <img src="./img/leaf.png" alt="img">
       <h2>Our Customers Say</h2>
       <p>The passage is attributed to an unknown typesetter in the 15th century who is thou<br>
         ght to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>

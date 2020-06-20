@@ -8,7 +8,7 @@
         <li> <a href="./coconut"> <span>Coconut</span> </a> </li>
       </ol>
     </div>
-    <div class="category-cover hidden-sm-down"> <img class="img-fluid" alt="" src="img/coconut-banner.png" style="display: inline;"> </div>
+    <div class="category-cover hidden-sm-down"> <img class="img-fluid" alt="" src="./img/coconut-banner.png" style="display: inline;"> </div>
   </nav>
 </section>
 <!--innner banned ends--->
@@ -17,7 +17,7 @@
   <div class="container">
     <div class="row pl-0">
       <div class="col-md-12">
-        <img src="img/coconut.png" class="img-fluid float-right w50">
+        <img src="./img/coconut.png" class="img-fluid float-right w50">
 
         <p>
           The coconut tree is a member of the palm tree family and the only living species of the genus Cocos. The term “coconut” (or the archaic “cocoanut“) can refer to the whole coconut palm, the seed, or the fruit, which botanically is a drupe, not a nut. The name comes from the old Portuguese and Spanish word coco, meaning ‘head’ or ‘skull’ after the three indentations on the coconut shell that resemble facial features. They are ubiquitous in coastal tropical regions, and are a cultural icon of the tropics.

@@ -2,7 +2,7 @@
 <section class="about-section padtb-100 bg-green footer">
   <div class="container">
     <div class="row">
-      <div class="col-md-4 text-center"> <img src="img/logo.png" class="pb-4">
+      <div class="col-md-4 text-center"> <img src="./img/logo.png" class="pb-4">
         <p class="pr-4">Time Tested Traditional
           Methods Of Cultivation,
           Irrigation And Processing
@@ -33,7 +33,7 @@
           Email: business@11thavenuefoods.com
         </address>
       </div>
-      <div class="col-md-3 mt-5"> <img src="img/standards.png" class="img-fluid"> </div>
+      <div class="col-md-3 mt-5"> <img src="./img/standards.png" class="img-fluid"> </div>
     </div>
   </div>
 </section>

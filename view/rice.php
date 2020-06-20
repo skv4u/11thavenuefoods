@@ -8,7 +8,7 @@
         <li> <a href="./rice"> <span>Rice</span> </a> </li>
       </ol>
     </div>
-    <div class="category-cover hidden-sm-down"> <img class="img-fluid" alt="" src="img/fruit.png" style="display: inline;"> </div>
+    <div class="category-cover hidden-sm-down"> <img class="img-fluid" alt="" src="./img/fruit.png" style="display: inline;"> </div>
   </nav>
 </section>
 <!--innner banned ends--->
@@ -17,7 +17,7 @@
   <div class="container">
     <div class="row pl-0">
       <div class="col-md-12">
-        <img src="img/ricebg.png" class="img-fluid float-right w50">
+        <img src="./img/ricebg.png" class="img-fluid float-right w50">
 
         <p>Rice is a staple in any kitchen, and with so many different types, it lends itself to a limitless number of recipes. Before you add the same type of rice to every recipe you prepare, however, think twice. Substituting one type of rice for another can really alter the result of a recipe. Each type of rice has its own taste, texture, and unique properties that work well with different cooking applications. So how do you know which one is the best type of rice to use? This guide examines factors that differentiate types of rice, from nutty basmati to fragrant jasmine and more!</p>
         <p>
@@ -155,11 +155,11 @@
             </li>
           </ul>
 
-          <div class="col-md-12 text-center padtb-100"><img src="img/divider.png"></div>
+          <div class="col-md-12 text-center padtb-100"><img src="./img/divider.png"></div>
           <h3 class="mt-6 mb-4">Jasmine Rice</h3>
 
           <h4 class="mb-4">White Rice</h4>
-          <img src="img/jasmine-whiterice.png" class="img-fluid float-right imageauto">
+          <img src="./img/jasmine-whiterice.png" class="img-fluid float-right imageauto">
           <p>
             White rice is milled rice that has had its husk, bran, and germ removed. This alters the flavor, texture and appearance of the rice and helps prevent spoilage and extend its storage life. After milling, the rice is polished, resulting in a seed with a bright, white, shiny appearance.
           </p>
@@ -178,7 +178,7 @@
           </p>
 
           <h4 class="mb-4 mt-5">Brown Jasmine Rice</h4>
-          <img src="img/jasmine-brownrice.png" class="img-fluid  imageauto float-right">
+          <img src="./img/jasmine-brownrice.png" class="img-fluid  imageauto float-right">
           <p class="mt-5">
          
             Brown rice is a whole-grain rice with the inedible outer hull
@@ -188,13 +188,13 @@
             rice are all whole rices, but with differently pigmented outer
             layers.</p>
             <div class="clearfix"></div>
-          <div class="col-md-12 text-center padtb-100"><img src="img/divider.png"></div>
+          <div class="col-md-12 text-center padtb-100"><img src="./img/divider.png"></div>
 
           <h4 class="mt-6 mb-4">Basmathi Rice</h4>
           <p>
             Basmati is a variety of long, slender-grained aromatic rice which is traditionally from the Indian subcontinent.
           </p>
-          <img src="img/ricebg.png" class="img-fluid float-right w50">
+          <img src="./img/ricebg.png" class="img-fluid float-right w50">
           <p>
             According to the Indian Government agency APEDA, a rice variety is eligible to be notified as Basmati if it has a minimum average precooked milled rice length of 6.61 mm and average precooked milled rice breadth of up to 2 mm, among other parameters.</p>
 
@@ -216,14 +216,14 @@
 
 
 
-          <div class="col-md-12 text-center padtb-100"><img src="img/divider.png"></div>
+          <div class="col-md-12 text-center padtb-100"><img src="./img/divider.png"></div>
 
           <h4 class="mb-4">Non Basmathi Rice</h4>
 
           <p>
             Parboiled rice (also called converted rice and easy-cook rice) is rice that has been partially boiled in the husk. The three basic steps of parboiling are soaking, steaming and drying. These steps make the rice easier to process by hand, while also boosting its nutritional profile, changing its texture, and making it more resistant to weevils. About 50% of the world’s paddy production is parboiled. The treatment is practiced in many parts of the world.
           </p>
-          <img src="img/non-basmathi.png" class="img-fluid float-right w50">
+          <img src="./img/non-basmathi.png" class="img-fluid float-right w50">
           <p>
             Rice is easier to polish by hand (removal of the bran layer) after parboiling but mechanical processing is harder since the bran becomes somewhat oily and tends to clog machinery. Most parboiled rice is milled in the same way as white rice.
           </p>
@@ -265,10 +265,10 @@
                   <p>
                     Compared to brown rice, parboiling of rice incurs losses of thiamin, niacin, biotin, and pantothenic acid by approximately 70%, 28%, 49% and 25%, respectively. Compared to normal milling, which causes a near 65% loss of all these micronutrients, parboiling preserves more of them. The specific loss depend on the process used by individual manufacturers: for the USDA #20042 sample, much less loss in these nutrients is observed. Fortification is common for parboiled rice in the United States.
                   </p>
-                  <div class="col-md-12 text-center padtb-100"><img src="img/divider.png"></div>
+                  <div class="col-md-12 text-center padtb-100"><img src="./img/divider.png"></div>
                   <h3 class="mb-4">Long Grain Rice</h3>
 
-                  <p><img src="img/long-grain.png" class="img-fluid float-right imageauto">
+                  <p><img src="./img/long-grain.png" class="img-fluid float-right imageauto">
                     Long grain rice kernels are three times longer than they are wide what means that are more than 6 mm. When cooked, this grain is light and separates easily. There are as well gelatinous long grain rice in Thailand where are native. It contains much less niacin, thiamin, magnesium, zinc, iron and fiber than the brown rice. White rice may be covered with magnesium silicate or with a mixture consisting of talc and glucose which is also known as talc-coated rice. This type of rice is cultivated in India and Pakistan. Long-grain rice has the most amylose and the smallest amount of amylopectin, so it has a propensity to be the fluffiest and least sticky. Amylose also hardens more when is fresh, combination strongly together and forming crystals that melt when the rice is reheated. Rice that is high in amylose has a lower Glycerin index number. Amylopectin is a highly divided molecule that makes the rice humid when it’s released from the grain during cooking.
                   </p>
       </div>
