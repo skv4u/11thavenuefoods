@@ -35,19 +35,19 @@
           <form action="" class="form">
             <div class="form-group">
               <label class="form-label" for="first">Name</label>
-              <input  class="form-input" type="text" />
+              <input  class="form-input input" type="text" />
             </div>
             <div class="form-group">
               <label class="form-label" for="last">Email Id</label>
-              <input  class="form-input" type="text" />
+              <input  class="form-input input" type="text" />
             </div>
             <div class="form-group">
               <label class="form-label" for="color">Website</label>
-              <input class="form-input" type="text" />
+              <input class="form-input input" type="text" />
             </div>
 			       <div class="form-group">
-              <label class="form-label" for="color">Website</label>
-              <input class="form-input" type="text" />
+              <label class="form-label" for="color">Message</label>
+              <textarea class="form-input input"></textarea>
             </div>
 			  <div class="form-group">
 			  <button class="default-btn bt">Submit</button>

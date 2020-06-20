@@ -44,14 +44,14 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav ml-auto nav-link">
-        <li class="nav-item active"> <a class="active" href="#">Home</a> </li>
-        <li class="nav-item"> <a class="" href="./aboutus">About</a> </li>
-        <li class="nav-item"> <a href="#">Rice</a> </li>
-        <li class="nav-item"> <a href="#">Mango</a> </li>
-        <li class="nav-item"> <a href="#">Coconut</a> </li>
-        <li class="nav-item"> <a href="#">Pineapple</a> </li>
-        <li class="nav-item"> <a href="./services">Services</a> </li>
-        <li class="nav-item"> <a href="./contact">ContactUs</a> </li>
+        <li class="nav-item active"> <a class="<?php echo $page == 'home'? 'active':''; ?>" href="./">Home</a> </li>
+        <li class="nav-item"> <a class="<?=$page == 'aboutus'? 'active':'';?>" href="./aboutus">About</a> </li>
+        <li class="nav-item"> <a class="<?=$page == 'rice'? 'active':'';?>" href="./rice">Rice</a> </li>
+        <li class="nav-item"> <a class="<?=$page == 'mango'? 'active':'';?>" href="./mango">Mango</a> </li>
+        <li class="nav-item"> <a class="<?=$page == 'coconut'? 'active':'';?>" href="./coconut">Coconut</a> </li>
+        <li class="nav-item"> <a class="<?=$page == 'pineapple'? 'active':'';?>" href="./pineapple">Pineapple</a> </li>
+        <li class="nav-item"> <a class="<?=$page == 'services'? 'active':'';?>" href="./services">Services</a> </li>
+        <li class="nav-item"> <a class="<?=$page == 'contact'? 'active':'';?>" href="./contact">ContactUs</a> </li>
       </ul>
     </div>
   </nav>

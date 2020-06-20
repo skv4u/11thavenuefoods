@@ -93,11 +93,11 @@ $(document).ready(function() {
 
     }); // left menu link3 click() scroll END
 
-    $('input').focus(function() {
+    $('.input').focus(function() {
         $(this).parents('.form-group').addClass('focused');
     });
 
-    $('input').blur(function() {
+    $('.input').blur(function() {
         var inputValue = $(this).val();
         if (inputValue == "") {
             $(this).removeClass('filled');
