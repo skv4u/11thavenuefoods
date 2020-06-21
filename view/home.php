@@ -1,17 +1,20 @@
 <!--banner starts---->
 <div id="carouselExampleCaptions" class="carousel slide d-none d-sm-block" data-ride="carousel">
-  <ol class="carousel-indicators">
+<!--
+    <ol class="carousel-indicators">
     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
   </ol>
+-->
   <div class="carousel-inner">
     <div class="carousel-item active"> <img src="./img/slider-1.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h1>Live With Organic Food</h1>
         <h1>Live Healthy</h1>
         <p>Your journey to ta healthier life starts here.</p>
+        <a class="default-btn" href="./rice">Read More<span></span></a>
       </div>
     </div>
 
@@ -19,12 +22,14 @@
       <div class="carousel-caption d-none d-md-block">
         <h1>Mango Pulp</h1>
         <p>A Healthy Outside Starts From Inside</p>
+        <a class="default-btn" href="./mango">Read More<span></span></a>
       </div>
     </div>
     <div class="carousel-item"> <img src="./img/slider-3.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h1>Pineapple Juice</h1>
         <p>When Life Gives Me A Pineapple I Make Juice!</p>
+        <a class="default-btn" href="./pineapple">Read More<span></span></a>
       </div>
 
     </div>
@@ -32,6 +37,7 @@
       <div class="carousel-caption d-none d-md-block">
         <h1>Young Coconut</h1>
         <p>An Ocean breeze puts a mind at ease</p>
+        <a class="default-btn" href="./coconute">Read More<span></span></a>
       </div>
 
     </div>
@@ -77,9 +83,7 @@
 <section class="about-section padtb-100">
   <div class="container">
     <div class="about-wrap row">
-      <div class="col-md-6">
-        <div class="about-img"> <img src="./img/fruits.png" alt="fruits" class="img-fluid"> </div>
-      </div>
+    
       <div class="col-md-6 xs-padding">
         <div class="abtc">
           <div class="section-heading"> <img src="./img/leaf.png" alt="img">
@@ -94,6 +98,9 @@
           </ul>
           <a class="default-btn" href="./mango">Read More<span></span></a>
         </div>
+      </div>
+      <div class="col-md-6">
+        <div class="about-img"> <img src="./img/fruits.png" alt="fruits" class="img-fluid"> </div>
       </div>
     </div>
   </div>

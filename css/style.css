@@ -300,10 +300,10 @@ ul.abt-info {
   height: auto;
 }
 .owl-theme .owl-controls .owl-page span {
-  border: 2px solid #2A3D7D;
-  background: #fff !important;
+  border: 0 !important ; 
+  background: black !important;
   border-radius: 0 !important;
-  opacity: 1;
+  opacity: 1 !important;
 }
 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls .owl-page:hover span {
   background: #f3912f !important;
@@ -574,10 +574,7 @@ ul.abt-info {
   color:#000;
 }
 
-.carousel-control-next,
-.carousel-control-prev {
-    filter: invert(100%);
-}
+
 
 .carousel-indicators li {
 
@@ -594,4 +591,25 @@ ul.abt-info {
 
 a:hover{
   text-decoration:none;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("../img/left-arrow.png") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("../img/right-arrow.png") !important;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  display: inline-block;
+  width: 50px;
+  height: 49px;
+  background: no-repeat 50%/100% 100%;
+}
+
+.carousel-control-next, .carousel-control-prev {
+
+  opacity: 1 !important;
+ 
 }
