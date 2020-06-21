@@ -1,5 +1,5 @@
-$(document).ready(function () {
-    $(".filter-button").click(function () {
+$(document).ready(function() {
+    $(".filter-button").click(function() {
         var value = $(this).attr('data-filter');
         if (value == "all") {
             //$('.filter').removeClass('hidden');
@@ -38,7 +38,7 @@ $(document).ready(function () {
     // declare variable
     var scrollTop = $(".scrollTop");
 
-    $(window).scroll(function () {
+    $(window).scroll(function() {
         // declare variable
         var topPos = $(this).scrollTop();
 
@@ -53,7 +53,7 @@ $(document).ready(function () {
     }); // scroll END
 
     //Click event to scroll to top
-    $(scrollTop).click(function () {
+    $(scrollTop).click(function() {
         $('html, body').animate({
             scrollTop: 0
         }, 800);
@@ -69,7 +69,7 @@ $(document).ready(function () {
     var h2 = $("#h2").position();
     var h3 = $("#h3").position();
 
-    $('.link1').click(function () {
+    $('.link1').click(function() {
         $('html, body').animate({
             scrollTop: h1.top
         }, 500);
@@ -77,7 +77,7 @@ $(document).ready(function () {
 
     }); // left menu link2 click() scroll END
 
-    $('.link2').click(function () {
+    $('.link2').click(function() {
         $('html, body').animate({
             scrollTop: h2.top
         }, 500);
@@ -85,7 +85,7 @@ $(document).ready(function () {
 
     }); // left menu link2 click() scroll END
 
-    $('.link3').click(function () {
+    $('.link3').click(function() {
         $('html, body').animate({
             scrollTop: h3.top
         }, 500);
@@ -93,11 +93,11 @@ $(document).ready(function () {
 
     }); // left menu link3 click() scroll END
 
-    $('.input').focus(function () {
+    $('.input').focus(function() {
         $(this).parents('.form-group').addClass('focused');
     });
 
-    $('.input').blur(function () {
+    $('.input').blur(function() {
         var inputValue = $(this).val();
         if (inputValue == "") {
             $(this).removeClass('filled');
@@ -106,14 +106,111 @@ $(document).ready(function () {
             $(this).addClass('filled');
         }
     })
+    $('#contact').submit(function(e) {
+        e.preventDefault();
+        let formdata = $(this).serializeArray();
+        let that = $(this);
+        let jsondata = {};
+        for (let m of formdata) {
+            jsondata[m.name] = m.value;
+        }
+        console.log(jsondata);
+        if (jsondata.name.toString().trim().length == 0) {
+            alert("Invalid Name");
+            return false;
+        }
+
+        let reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+        if (reg.test(jsondata.email) == false) {
+            alert('Invalid Email Address');
+            return false;
+        }
+        if (jsondata.message.toString().trim().length == 0) {
+            alert("Invalid Message");
+            return false;
+        }
+        let req = {
+            "Subject": jsondata.name + " Contacted you from 11thavenuefoods.com",
+            "Message": emailTemplate(jsondata)
+        };
+
+        $(this).find("button[type='submit']").val("Processing...");
+        return false
+
+        $.ajax({
+            url: "https://11thavenuefoods.com/demo5/email.php",
+            type: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify(req),
+            success: function(data) {
+                if (data.status) {
+                    alert("Thank you for contacting us..\n We will contact you shortly!!!");
+                    window.location.reload();
+                }
+
+            }
+        });
+
+    });
 
 }); // ready() END
 
 
+
+
+function emailTemplate(data) {
+    let html = `<table style="
+    display: table;
+    border-spacing: 0;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    
+    ">
+  <tbody><tr>
+  <td style="border: 1px solid #f9f9f9;padding: 10px;">Name</td>
+    <td style="border: 1px solid #f9f9f9;padding: 10px;">${data.name}</td>
+  </tr>
+    <tr>
+  <td style="border: 1px solid #f9f9f9;padding: 10px;">Email</td>
+    <td style="border: 1px solid #f9f9f9;padding: 10px;">${data.email}</td>
+  </tr>
+      <tr>
+  <td style="border: 1px solid #f9f9f9;padding: 10px;">Website</td>
+    <td style="border: 1px solid #f9f9f9;padding: 10px;">${data.website}</td>
+  </tr>
+     <tr>
+  <td colspan="2" style="border: 1px solid #f9f9f9;padding: 10px;">
+    <h3>
+      Message
+    </h3>
+    
+    </td>
+    </tr>
+    <tr>
+    <td colspan="2" style="border: 1px solid #f9f9f9;padding: 10px;">
+        ${nl2br(data.message)}    
+    </td>
+  </tr>
+</tbody></table>`;
+    return html;
+}
+
+function nl2br(str, is_xhtml) {
+    if (typeof str === 'undefined' || str === null) {
+        return '';
+    }
+    var breakTag = (is_xhtml || typeof is_xhtml === 'undefined') ? '<br />' : '<br>';
+    return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1' + breakTag + '$2');
+}
+
 // slim scroll
 
 
-window.onload = function () {
+window.onload = function() {
     if (!navigator.userAgent.match('Macintosh')) {
         var element = document.querySelectorAll('.slimScroll');
 
@@ -219,7 +316,7 @@ window.onload = function () {
         });
 
 
-        var seventeen= new slimScroll(element[16], {
+        var seventeen = new slimScroll(element[16], {
             'wrapperClass': 'wrapper',
             'scrollBarContainerClass': 'scrollBarContainer',
             'scrollBarClass': 'scrollBar'
@@ -233,7 +330,7 @@ window.onload = function () {
         });
 
 
-        var ninteen= new slimScroll(element[18], {
+        var ninteen = new slimScroll(element[18], {
             'wrapperClass': 'wrapper',
             'scrollBarContainerClass': 'scrollBarContainer',
             'scrollBarClass': 'scrollBar'
@@ -242,13 +339,13 @@ window.onload = function () {
 
         // resize example
         // To make the resizing work, set the height of the container in PERCENTAGE
-        window.onresize = function () {
+        window.onresize = function() {
             one.resetValues();
             two.resetValues();
             three.resetValues();
         }
+    } else {
+        console.log("For Mac users, this custom slimscroll styles will not be applied");
     }
-    else {
-        document.write("For Mac users, this custom slimscroll styles will not be applied");
-    }
+
 }

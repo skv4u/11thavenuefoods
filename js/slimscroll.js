@@ -1,34 +1,34 @@
-var slimScroll = function(C, payload){
+var slimScroll = function(C, payload) {
     var i = {},
         _this = this,
-        w   = "wrapper",
-        s   = "scrollBar",
-        S   = "scrollBarContainer",
-        a   = "",
-        m   = "",
-        l   ="data-slimscroll",
+        w = "wrapper",
+        s = "scrollBar",
+        S = "scrollBarContainer",
+        a = "",
+        m = "",
+        l = "data-slimscroll",
         // properties
-        oT  = "offsetTop",
-        sT  = "scrollTop",
-        pE  = "parentElement",
+        oT = "offsetTop",
+        sT = "scrollTop",
+        pE = "parentElement",
         pes = "previousElementSibling",
-        iH  = "innerHTML",
-        cT  = "currentTarget",
-        sK  = "scroll-k",
-        U   = "%",
-        d   = ".",
+        iH = "innerHTML",
+        cT = "currentTarget",
+        sK = "scroll-k",
+        U = "%",
+        d = ".",
         // IE8 properties
         // (Dev note: remove below variables from all over the code to exclude IE8 compatibility)
         pN = "parentNode",
-        pS = "previousSibling",     // Not used anywhere (need to check)
-        sE = "srcElement",          // Not used anywhere (need to check)
-        assignValues = function(k){
-            if(!_this.initInProcess){
-                if(!_this.initDone){    // If i object is empty
-                    _this.init();       // Initialize again
+        pS = "previousSibling", // Not used anywhere (need to check)
+        sE = "srcElement", // Not used anywhere (need to check)
+        assignValues = function(k) {
+            if (!_this.initInProcess) {
+                if (!_this.initDone) { // If i object is empty
+                    _this.init(); // Initialize again
                 }
 
-                if(!scrollBarVisible(i[w])){
+                if (!scrollBarVisible(i[w])) {
                     removeSlimScroll();
                     return;
                 }
@@ -39,54 +39,55 @@ var slimScroll = function(C, payload){
             var q = i.E;
             i.h = i[S].offsetHeight;
             i.sH = i[w].scrollHeight;
-            i.sP = (i.h/i.sH) * 100;
+            i.sP = (i.h / i.sH) * 100;
             // i.sbh is scroll bar height in pixels without pixel unit.
-            i.sbh = i.sP * i.h/100;
+            i.sbh = i.sP * i.h / 100;
             // Manually set the height of the scrollbar (in percentage)
             // if user hasn't provided the fixed scroll height value
-            if(!q.sH) i.sP1 = i.sbh < q.mH? (q.mH/i.h * 100): i.sP;
-            else i.sP1 = q.sH/i.h * 100;
+            if (!q.sH) i.sP1 = i.sbh < q.mH ? (q.mH / i.h * 100) : i.sP;
+            else i.sP1 = q.sH / i.h * 100;
 
             i.rP1 = 100 - i.sP1;
-            i.x = (i.sH - i.h) * ((i.sP1 - i.sP)/(100 - i.sP));
-            i.sH1 = Math.abs((i.x / (i.rP1)) + (i.sH/100));
+            i.x = (i.sH - i.h) * ((i.sP1 - i.sP) / (100 - i.sP));
+            i.sH1 = Math.abs((i.x / (i.rP1)) + (i.sH / 100));
             i[s].style.height = i.sP1 + U;
 
             i.reposition = getReposition(i[s], i.h);
         },
         // Start of private functions
-        setAttr = function(e, p, v){
-            e.setAttribute(p,v);
+        setAttr = function(e, p, v) {
+            e.setAttribute(p, v);
         },
-        getAttr = function(e, p){
-            if(!e) return;
+        getAttr = function(e, p) {
+            if (!e) return;
             return e.getAttribute(p);
         },
-        addClass = function(e, c){
-            if(c.length) e.className = c;
+        addClass = function(e, c) {
+            if (c.length) e.className = c;
         },
-        cE = function(c, h, p){
+        cE = function(c, h, p) {
             var d = document.createElement('div');
             addClass(d, c);
             d[iH] = h;
             p.appendChild(d);
             return d;
         },
-        setScroll = function(e){
-            var e = e || event,el = e.target || event[sE],
+        setScroll = function(e) {
+            var e = e || event,
+                el = e.target || event[sE],
                 p = el[pE] || el[pN];
             var q = i.E;
 
-            if(!i || p === i[S]) return;
+            if (!i || p === i[S]) return;
             var eY = e.pageY || event.clientY,
-                top = ((eY - getTop(i[w][pE] || i[w][pN]))/i.h * 100) - i.sP1/2;
-            if(top > i.rP1) top = i.rP1;
-            else if(top < 0) top = 0;
+                top = ((eY - getTop(i[w][pE] || i[w][pN])) / i.h * 100) - i.sP1 / 2;
+            if (top > i.rP1) top = i.rP1;
+            else if (top < 0) top = 0;
             i[s].style.top = top + U;
             i[w][sT] = top * i.sH1;
             addClass(i[S], q.S + q.a);
         },
-        beginScroll = function(e){
+        beginScroll = function(e) {
             // removing selected text
             // Link: http://stackoverflow.com/a/3171348
             var sel = window.getSelection ? window.getSelection() : document.selection;
@@ -102,32 +103,33 @@ var slimScroll = function(C, payload){
 
             i[oT] = getTop(i[w]);
             i.firstY = e.pageY || event.clientY;
-            if(!i.reposition) i.reposition = getReposition(i[s], i.h);
+            if (!i.reposition) i.reposition = getReposition(i[s], i.h);
             // Disable text selection while dragging the scrollbar
             return false;
         },
-        getReposition = function(i, h){
-            var x = parseInt(i.style.top.replace(U,""),10) * h/100;
-            return x?x:0;
+        getReposition = function(i, h) {
+            var x = parseInt(i.style.top.replace(U, ""), 10) * h / 100;
+            return x ? x : 0;
         },
-        moveScroll = function(e){
+        moveScroll = function(e) {
             var e = e || event,
                 q = i.E,
                 eY = e.pageY || e.clientY,
-                top = (i.reposition + eY - i.firstY)/i.h * 100;
+                top = (i.reposition + eY - i.firstY) / i.h * 100;
 
-            if(i.rP1 < top) top = i.rP1;
-            if(!i.previousTop) i.previousTop = top + 1;
+            if (i.rP1 < top) top = i.rP1;
+            if (!i.previousTop) i.previousTop = top + 1;
             var blnThreshold = top >= 0 && i.firstY > i[oT];
-            if((i.previousTop > top && blnThreshold) || (blnThreshold && (i[w][sT] + i.h !== i.sH))){
+            if ((i.previousTop > top && blnThreshold) || (blnThreshold && (i[w][sT] + i.h !== i.sH))) {
                 i[s].style.top = top + U;
                 i.previousTop = top;
                 i[w][sT] = top * i.sH1;
             }
             addClass(i[S], q.S);
         },
-        endScroll = function(e){
-            var e = e || event,q = i.E;
+        endScroll = function(e) {
+            var e = e || event,
+                q = i.E;
 
             removeEvent('mousemove', document);
             removeEvent('mouseup', document);
@@ -135,77 +137,77 @@ var slimScroll = function(C, payload){
             i.reposition = 0;
             addClass(i[S], q.S + q.a);
         },
-        doScroll = function(e){
+        doScroll = function(e) {
             var e = e || event;
-            if(!i) return;
+            if (!i) return;
             var q = i.E;
             addClass(i[S], q.S);
-            i[s].style.top = i[w][sT]/i.sH1 + U;
+            i[s].style.top = i[w][sT] / i.sH1 + U;
             addClass(i[S], q.S + q.a);
         },
-        addEvent = function(e, el, func){
+        addEvent = function(e, el, func) {
             el['on' + e] = func;
             // el.addEventListener(e, func, false);
         },
-        removeEvent = function(e, el){
+        removeEvent = function(e, el) {
             el['on' + e] = null;
             // el.removeEventListener(e, func, false);
         },
         addCSSRule = function(S, s, r, i) {
-            if(S.insertRule) S.insertRule(s + "{" + r + "}", i);
-            else if(S.addRule) S.addRule(s, r, i);
+            if (S.insertRule) S.insertRule(s + "{" + r + "}", i);
+            else if (S.addRule) S.addRule(s, r, i);
         },
-        getTop = function(el){
+        getTop = function(el) {
             var t = document.documentElement[sT];
-            return el.getBoundingClientRect().top + (t?t:document.body[sT]);
+            return el.getBoundingClientRect().top + (t ? t : document.body[sT]);
         },
-        insertCss = function(){
-            if(!window.slimScrollStylesApplied){
-                if(_this.isSlimScrollInserted){
+        insertCss = function() {
+            if (!window.slimScrollStylesApplied) {
+                if (_this.isSlimScrollInserted) {
                     _this.initInProcess = false;
                     return;
                 }
                 // Inserting css rules
                 // Link: http://davidwalsh.name/add-rules-stylesheets
-                var slim = "["+l+"]",
+                var slim = "[" + l + "]",
                     imp = " !important",
-                    pA = "position:absolute"+imp,
+                    pA = "position:absolute" + imp,
                     // classes
-                    w = pA+";overflow:auto"+imp+";left:0px;top:0px"+imp+";right:0px;bottom:0px"+imp+";padding-right:8px"+imp+";",
-                    S = pA+";top:0px"+imp+";bottom:0px"+imp+";right:0px;left:auto;width:5px;cursor:pointer"+imp+";padding-right:0px"+imp+";",
-                    s = pA+";background-color:#999;top:0px;left:0px;right:0px;",
+                    w = pA + ";overflow:auto" + imp + ";left:0px;top:0px" + imp + ";right:0px;bottom:0px" + imp + ";padding-right:8px" + imp + ";",
+                    S = pA + ";top:0px" + imp + ";bottom:0px" + imp + ";right:0px;left:auto;width:5px;cursor:pointer" + imp + ";padding-right:0px" + imp + ";",
+                    s = pA + ";background-color:#999;top:0px;left:0px;right:0px;",
                     //creating a sheet
                     style = document.createElement('style'),
                     scrollBar = "[data-scrollbar]";
-                try{
+                try {
                     // WebKit hack :(
                     style.appendChild(document.createTextNode(""));
-                }catch(ex){}
+                } catch (ex) {}
 
-                var head =  document.head || document.getElementsByTagName('head')[0];
+                var head = document.head || document.getElementsByTagName('head')[0];
 
                 // adding above css to the sheet
-                head.insertBefore(style, (head.hasChildNodes())
-                                    ? head.childNodes[0]
-                                    : null);
+                head.insertBefore(style, (head.hasChildNodes()) ?
+                    head.childNodes[0] :
+                    null);
                 var sheet = style.sheet;
-                if(sheet){
-                    addCSSRule(sheet, slim+">div", w, 0);
-                    addCSSRule(sheet, slim+">div+div", S, 0);
+                if (sheet) {
+                    addCSSRule(sheet, slim + ">div", w, 0);
+                    addCSSRule(sheet, slim + ">div+div", S, 0);
                     addCSSRule(sheet, scrollBar, s, 0);
-                }
-                else{
-                    style.styleSheet.cssText = slim+">div{"+w+"}"+slim+">div+div"+"{"+S+"}"+slim+">div+div>div{"+s+"}";
+                } else {
+                    style.styleSheet.cssText = slim + ">div{" + w + "}" + slim + ">div+div" + "{" + S + "}" + slim + ">div+div>div{" + s + "}";
                 }
                 _this.isSlimScrollInserted = true;
                 window.slimScrollStylesApplied = true;
             }
         },
-        removeSlimScroll = function(){
-            C.removeAttribute(l);  //reset
-            if(_this.isSlimScrollInserted){
+        removeSlimScroll = function() {
+            if (C && l)
+                C.removeAttribute(l); //reset
+            if (_this.isSlimScrollInserted) {
                 var insideContent = C.firstChild.innerHTML;
-                if(insideContent){
+                if (insideContent) {
                     C.innerHTML = insideContent;
                 }
             }
@@ -213,19 +215,21 @@ var slimScroll = function(C, payload){
             _this.initDone = false;
 
         },
-        scrollBarVisible = function(x){
-            if(!x) x = C;
+        scrollBarVisible = function(x) {
+            if (!x) x = C;
+            if (!x) return;
             return x.offsetHeight < x.scrollHeight;
         },
         // Initial function
-        init = function(){
+        init = function() {
             removeSlimScroll();
-            if(scrollBarVisible()){
+            if (scrollBarVisible()) {
                 _this.initDone = true;
                 _this.initInProcess = true;
                 setAttr(C, l, '1');
                 insertCss();
-                var h = C[iH], q = i.E = {};
+                var h = C[iH],
+                    q = i.E = {};
                 // setting user defined classes
                 payload = payload || {};
                 q.w = payload.wrapperClass || "";
@@ -233,7 +237,7 @@ var slimScroll = function(C, payload){
                 q.S = payload.scrollBarContainerClass || "";
                 q.a = payload.scrollBarContainerSpecialClass ? " " + payload.scrollBarContainerSpecialClass : "";
                 q.mH = payload.scrollBarMinHeight || 25;
-                q.sH = payload.scrollBarFixedHeight;  // could be undefined
+                q.sH = payload.scrollBarFixedHeight; // could be undefined
 
                 C[iH] = "";
                 i[w] = cE(q.w, h, C);
@@ -243,7 +247,7 @@ var slimScroll = function(C, payload){
                 assignValues();
 
                 placeIt();
-                if(payload.keepFocus){
+                if (payload.keepFocus) {
                     setAttr(i[w], 'tabindex', '-1');
                     i[w].focus();
                 }
@@ -254,37 +258,35 @@ var slimScroll = function(C, payload){
                 addEvent('scroll', i[w], doScroll);
                 // addEvent('selectstart', i[S], function(){return;});
                 _this.initInProcess = false;
-            }
-            else{
+            } else {
                 removeSlimScroll();
-                return;     // don't do any further operations
+                return; // don't do any further operations
             }
         },
 
-        placeIt = function(){
+        placeIt = function() {
             // Show the default scrollbar to get the scrollbar width
             i[w].style.overflow = "";
             var scrollBarWidth = i[w].offsetWidth - i[w].clientWidth;
             // Stretching the inner container so that the default scrollbar is completely invisible
             i[w].style.right = -scrollBarWidth + "px";
             _this.isSlimScrollInserted = true;
-            if(payload.keepFocus){
+            if (payload.keepFocus) {
                 setAttr(i[w], 'tabindex', '-1');
                 i[w].focus();
             }
         };
 
-        _this.resetValues = function(){
-            if(Object.keys(i).length){
-                assignValues();
-                
-                placeIt();
-            }
-            else{
-                assignValues();
-            }
+    _this.resetValues = function() {
+        if (Object.keys(i).length) {
+            assignValues();
+
+            placeIt();
+        } else {
+            assignValues();
         }
-        _this.init = init;
-        init();
+    }
+    _this.init = init;
+    init();
     return _this;
 };

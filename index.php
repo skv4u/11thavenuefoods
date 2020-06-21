@@ -13,6 +13,8 @@ $meta = array(
     )
 );
 
+$BASE_URL = "https://11thavenuefoods.com/demo5/";
+
 include ('view/header.php');
 include ('view/' . $page . '.php');
 include ('view/footer.php');

@@ -37,7 +37,7 @@
       <div class="carousel-caption d-none d-md-block">
         <h1>Young Coconut</h1>
         <p>An Ocean breeze puts a mind at ease</p>
-        <a class="default-btn" href="./coconute">Read More<span></span></a>
+        <a class="default-btn" href="./coconut">Read More<span></span></a>
       </div>
 
     </div>
