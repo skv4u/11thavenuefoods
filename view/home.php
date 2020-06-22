@@ -1,6 +1,6 @@
 <!--banner starts---->
 <div id="carouselExampleCaptions" class="carousel slide d-none d-sm-block" data-ride="carousel">
-<!--
+  <!--
     <ol class="carousel-indicators">
     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -71,7 +71,7 @@
       <div class="col-md-4 col-sm-6 xs-padding">
         <div class="pr-item active text-center"> <span class="pr-img"><img src="./img/pineapple.png"></span>
           <h3>Pineapple</h3>
-          <p>The pineapple  is a tropical plant with an edible fruit, also called a pineapple, &amp; the most economically significant plant in the family.  </p>
+          <p>The pineapple is a tropical plant with an edible fruit, also called a pineapple, &amp; the most economically significant plant in the family. </p>
           <a href="./pineapple">Read More</a>
         </div>
       </div>
@@ -83,7 +83,7 @@
 <section class="about-section padtb-100">
   <div class="container">
     <div class="about-wrap row">
-    
+
       <div class="col-md-6 xs-padding">
         <div class="abtc">
           <div class="section-heading"> <img src="./img/leaf.png" alt="img">
@@ -404,7 +404,7 @@
         </div>
       </div>
 
-      
+
       <div class="gallery_product col-md-4 filter rice">
         <div class="sm-padding">
           <div class="b-item">
@@ -413,11 +413,11 @@
               <h3>Sri Biryani Basmati Rice</h3>
               <div class="slimScroll">
                 <p>Sri Biryani Basmati Rice is sourced from Punjab, northern
-part of India characterized by its very long grain and unique
-aroma. Becomes fluffy, thin, long and non-sticky on
-cooking. It is ideal for Biryani, Veg Pulao, Jeera rice and
-Fried rice sort of preparations. A regular food stock for
-every kitchen.</p>
+                  part of India characterized by its very long grain and unique
+                  aroma. Becomes fluffy, thin, long and non-sticky on
+                  cooking. It is ideal for Biryani, Veg Pulao, Jeera rice and
+                  Fried rice sort of preparations. A regular food stock for
+                  every kitchen.</p>
 
               </div>
               <a href="./rice" class="read-more">Read More</a>
@@ -438,7 +438,7 @@ every kitchen.</p>
                   steaming and drying. These steps make the rice easier to
                   process by hand, while also boosting its nutritional profile,
                   changing its texture, and making it more resistant to weevils.
-                  </p>
+                </p>
 
               </div>
               <a href="./rice" class="read-more">Read More</a>
@@ -492,7 +492,7 @@ every kitchen.</p>
 
 
 
-     
+
 
       <div class="gallery_product col-md-4 filter pineapple">
         <div class="sm-padding">
@@ -531,8 +531,10 @@ every kitchen.</p>
   <div class="container mt-5">
     <div class="row">
       <div class="col-md-12">
+
+      
         <div id="testimonial-slider" class="owl-carousel">
-        <div class="testimonial">
+          <div class="testimonial">
             <div class="pic"> <img src="./img/844.jpg"> </div>
             <p class="description">I like the support from 11thavenuefoods, They always engourage with Good food, Good life. I am really thankful to 11thavenuefoods for briging new aprroach for new generation , where every one have busy schedule with no proper time to have food items. </p>
             <h3 class="title">Jenny</h3>
@@ -541,28 +543,28 @@ every kitchen.</p>
 
           <div class="testimonial">
             <div class="pic"> <img src="./img/11095.jpg"> </div>
-            <p class="description"> 
-11thavenuefoods is provide chemical free products, Which attaract more to me.
-When you deal with nature friendly products, it helps you in daily routine also. 
-Your Health, Potential, Activeness will there in full day.
-Thank you 11thavenuefoods for your support. </p>
+            <p class="description">
+              11thavenuefoods is provide chemical free products, Which attaract more to me.
+              When you deal with nature friendly products, it helps you in daily routine also.
+              Your Health, Potential, Activeness will there in full day.
+              Thank you 11thavenuefoods for your support. </p>
             <h3 class="title">Mark D</h3>
             <small class="post">- Transpotation</small>
           </div>
 
-      
+
 
           <div class="testimonial">
             <div class="pic"> <img src="./img/28110.jpg"> </div>
             <p class="description">
-            We are 100% satisfy for with rice product. Thanks you 11thavenuefoods. <br />
-            The taste of the Indian flavour brings ultimate prpagation to our daily live. <br />
-            I will recommend to my colleages for 11thavenuefoods.
+              We are 100% satisfy for with rice product. Thanks you 11thavenuefoods. <br />
+              The taste of the Indian flavour brings ultimate prpagation to our daily live. <br />
+              I will recommend to my colleages for 11thavenuefoods.
             </p>
             <h3 class="title">Charlotte</h3>
             <small class="post">- Fashion Design </small>
           </div>
-     
+
         </div>
       </div>
     </div>
