@@ -134,8 +134,8 @@ $(document).ready(function() {
             "Message": emailTemplate(jsondata)
         };
 
-        $(this).find("button[type='submit']").val("Processing...");
-        return false
+        $(this).find("button").val("Processing...");
+
 
         $.ajax({
             url: "https://11thavenuefoods.com/demo5/email.php",
@@ -159,7 +159,7 @@ $(document).ready(function() {
 
 
 function emailTemplate(data) {
-    let html = `<table style="
+    /*let html = `<table style="
     display: table;
     border-spacing: 0;
     font-size: 14px;
@@ -195,7 +195,81 @@ function emailTemplate(data) {
         ${nl2br(data.message)}    
     </td>
   </tr>
-</tbody></table>`;
+</tbody></table>`;*/
+    let html = `
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="">
+   <head>
+      <meta charset="utf-8">
+      <!-- utf-8 works for most cases -->
+      <meta name="viewport" content="width=device-width">
+      <title></title>
+      <!-- The title tag shows in email notifications, like Android 4.4. -->
+      <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700" rel="stylesheet">
+   </head>
+   <body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #f1f1f1;">
+      <center style="width: 100%; background-color: #f1f1f1; 	font-family: 'Poppins', sans-serif;	font-weight: 400;	font-size: 15px;	line-height: 1.8;	color: rgba(0,0,0,.4);">
+         <div style="max-width: 600px; margin: 0 auto;" class="email-container">
+            <!-- BEGIN BODY -->
+            <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;box-shadow:0 0 20px 3px rgba(0, 0, 0, .05);">
+               <tr>
+                  <td valign="top" style="background: #ffffff; padding: 1em 2.5em 0 2.5em;;">
+                     <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                           <td class="logo" style="text-align: center;">
+                              <h1><a href="https://11thavenuefoods.com/demo5/"><img src="https://11thavenuefoods.com/demo5/img/logo.png"></a></h1>
+                           </td>
+                        </tr>
+                     </table>
+                  </td>
+               </tr>
+               <!-- end tr -->
+               <tr>
+                  <td valign="middle" class="hero bg_white" style="background:#ffffff; padding: 2em 0 2em 0;">
+                     <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                           <td style="padding: 0 2.5em; text-align: center; padding-bottom: 3em;">
+                              <div class="text">
+                                 <h2 style="font-family: 'Poppins', sans-serif; font-size:18px;font-weight:400; color: #000000;margin-top: 0;margin-bottom:0;">Thank Your for your interest. We will get back to you shortly</h2>
+                              </div>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td style="text-align:left;">
+                              <div style="border: 1px solid rgba(0,0,0,.08);max-width: 80%;	margin: 0 auto;
+                                 padding: 2em;">
+                                 <p style="display: flex;">
+									 <strong style="color:#333;font-size:16px;font-weight:500;padding-right:5px;flex: 1;">Name  </strong> 
+										<span style="padding-right: 20px;"> : </span>
+										<span style="font-size:14px;color:#b53434;flex: 4;">${data.name}</span>
+                                 </p>
+                                 <p style="display: flex;">
+								 <strong style="color:#333;font-size:16px;font-weight:500;padding-right:5px;flex: 1;">Email </strong>
+                                    <span style="padding-right: 20px;"> : </span>
+                                    <span style="font-size:14px;color:#b53434;flex: 4;">${data.email}</span>
+                                 </p>
+                                 <p style="display: flex;">
+								 <strong style="color:#333;font-size:16px;font-weight:500;padding-right:5px;flex: 1;">Website </strong> 
+								 <span style="padding-right: 20px;"> : </span>
+								 <span style="font-size:14px;color:#b53434;flex: 4;">${data.website}</span></p>
+                                 <p style="display: flex;">
+								 <strong style="color:#333;font-size:16px;font-weight:500;padding-right:5px;flex: 1;">Message </strong> 
+								 <span style="padding-right: 20px;"> : </span> 
+								 <span style="font-size:14px;color:#b53434;flex: 4;"> ${nl2br(data.message)}</span></p>
+                              </div>
+                           </td>
+                        </tr>
+                     </table>
+                  </td>
+               </tr>
+               <!-- end tr --> 
+               <!-- 1 Column Text + Button : END -->
+            </table>
+         </div>
+      </center>
+   </body>
+</html>
+`;
     return html;
 }
 

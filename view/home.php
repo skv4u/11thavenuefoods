@@ -532,24 +532,35 @@ every kitchen.</p>
     <div class="row">
       <div class="col-md-12">
         <div id="testimonial-slider" class="owl-carousel">
-          <div class="testimonial">
-            <div class="pic"> <img src="./img/santosh.png"> </div>
-            <p class="description"> "	
-11thavenuefoods is provide chemical free products, Which attaract more to me.
-When you deal with nature friendly products, it helps you in daily routine also.
-Your Health, Potential, Activeness will there in full day.
-Thank you 11thavenuefoods for your support.
-" </p>
-            <h3 class="title">Santosh Kumar</h3>
-            <small class="post">- Software Engineer</small>
+        <div class="testimonial">
+            <div class="pic"> <img src="./img/844.jpg"> </div>
+            <p class="description">I like the support from 11thavenuefoods, They always engourage with Good food, Good life. I am really thankful to 11thavenuefoods for briging new aprroach for new generation , where every one have busy schedule with no proper time to have food items. </p>
+            <h3 class="title">Jenny</h3>
+            <small class="post">- Interior Design </small>
           </div>
+
           <div class="testimonial">
-            <div class="pic"> <img src="./img/santosh-kumar.png"> </div>
-            <p class="description">"I like the support from 11thavenuefoods, They always engourage with Good food, Good life.
-I am really thankful to 11thavenuefoods for briging new aprroach for new generation ,
-where every one have busy schedule with no proper time to have food items." </p>
-            <h3 class="title">Santosh Kumar</h3>
-            <small class="post">- Software Engineer </small>
+            <div class="pic"> <img src="./img/11095.jpg"> </div>
+            <p class="description"> 
+11thavenuefoods is provide chemical free products, Which attaract more to me.
+When you deal with nature friendly products, it helps you in daily routine also. 
+Your Health, Potential, Activeness will there in full day.
+Thank you 11thavenuefoods for your support. </p>
+            <h3 class="title">Mark D</h3>
+            <small class="post">- Transpotation</small>
+          </div>
+
+      
+
+          <div class="testimonial">
+            <div class="pic"> <img src="./img/28110.jpg"> </div>
+            <p class="description">
+            We are 100% satisfy for with rice product. Thanks you 11thavenuefoods. <br />
+            The taste of the Indian flavour brings ultimate prpagation to our daily live. <br />
+            I will recommend to my colleages for 11thavenuefoods.
+            </p>
+            <h3 class="title">Charlotte</h3>
+            <small class="post">- Fashion Design </small>
           </div>
      
         </div>
