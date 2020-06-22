@@ -341,17 +341,17 @@ ul.abt-info {
 
 .testimonial .title {
     display: inline-block;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 1px;
+   
     color: #29D18B;
     margin: 0;
 }
 
 .testimonial .post {
     display: inline-block;
-    font-size: 17px;
+    font-size: 14px;
     color: #29D18B;
     font-style: italic;
 }
@@ -454,7 +454,25 @@ address {
         margin-top: 0px !important;
     }
     .former {
-        widh: 100%;
+        width: 100%;
+    }
+
+    .carousel {
+        margin-top: 0px !important;
+    }
+    .carousel-caption h1 {
+        font-size: 15px !important;
+        line-height: 0.6em;
+    }
+    .food-2, .food-1{
+        display: none;
+    }
+    .pr-item {
+      
+        margin-bottom: 20px;
+    }
+    .padtb-100 {
+        padding: 20px 0;
     }
 }
 

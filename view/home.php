@@ -9,8 +9,8 @@
   </ol>
 -->
   <div class="carousel-inner">
-    <div class="carousel-item active"> <img src="./img/slider-1.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+    <div class="carousel-item active"> <img src="./img/slider-1.jpg" class=" w-100" alt="...">
+      <div class="carousel-caption">
         <h1>Live With Organic Food</h1>
         <h1>Live Healthy</h1>
         <p>Your journey to ta healthier life starts here.</p>
@@ -18,15 +18,15 @@
       </div>
     </div>
 
-    <div class="carousel-item"> <img src="./img/slider-2.png" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+    <div class="carousel-item"> <img src="./img/slider-2.png" class=" w-100" alt="...">
+      <div class="carousel-caption">
         <h1>Mango Pulp</h1>
         <p>A Healthy Outside Starts From Inside</p>
         <a class="default-btn" href="./mango">Read More<span></span></a>
       </div>
     </div>
-    <div class="carousel-item"> <img src="./img/slider-3.png" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+    <div class="carousel-item"> <img src="./img/slider-3.png" class="w-100" alt="...">
+      <div class="carousel-caption">
         <h1>Pineapple Juice</h1>
         <p>When Life Gives Me A Pineapple I Make Juice!</p>
         <a class="default-btn" href="./pineapple">Read More<span></span></a>
@@ -404,6 +404,28 @@
         </div>
       </div>
 
+      
+      <div class="gallery_product col-md-4 filter rice">
+        <div class="sm-padding">
+          <div class="b-item">
+            <div class="b-thumb"> <img src="./img/biryanai-basmati-rice.png" class="img-fluid"></div>
+            <div class="blog-content">
+              <h3>Sri Biryani Basmati Rice</h3>
+              <div class="slimScroll">
+                <p>Sri Biryani Basmati Rice is sourced from Punjab, northern
+part of India characterized by its very long grain and unique
+aroma. Becomes fluffy, thin, long and non-sticky on
+cooking. It is ideal for Biryani, Veg Pulao, Jeera rice and
+Fried rice sort of preparations. A regular food stock for
+every kitchen.</p>
+
+              </div>
+              <a href="./rice" class="read-more">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="gallery_product col-md-4 filter rice">
         <div class="sm-padding">
           <div class="b-item">
@@ -503,8 +525,7 @@
   <div class="container">
     <div class="section-heading mb-40 text-center"> <img src="./img/leaf.png" alt="img">
       <h2>Our Customers Say</h2>
-      <p>The passage is attributed to an unknown typesetter in the 15th century who is thou<br>
-        ght to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
+      <p>We're proud to have some pretty awesome people as customers! .</p>
     </div>
   </div>
   <div class="container mt-5">
@@ -512,23 +533,25 @@
       <div class="col-md-12">
         <div id="testimonial-slider" class="owl-carousel">
           <div class="testimonial">
-            <div class="pic"> <img src="https://images.pexels.com/photos/704955/pexels-photo-704955.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"> </div>
-            <p class="description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada vulputate nisi in fermentum. Vivamus ac libero quis nisi auctor pulvinar. Aenean sit amet lectus posuere, mattis massa eget, ullamcorper diam. Nunc sit amet felis eget arcu congue dictum. </p>
-            <h3 class="title">Jessica</h3>
-            <small class="post">- Archietect</small>
+            <div class="pic"> <img src="./img/santosh.png"> </div>
+            <p class="description"> "	
+11thavenuefoods is provide chemical free products, Which attaract more to me.
+When you deal with nature friendly products, it helps you in daily routine also.
+Your Health, Potential, Activeness will there in full day.
+Thank you 11thavenuefoods for your support.
+" </p>
+            <h3 class="title">Santosh Kumar</h3>
+            <small class="post">- Software Engineer</small>
           </div>
           <div class="testimonial">
-            <div class="pic"> <img src="https://images.pexels.com/photos/638700/pexels-photo-638700.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"> </div>
-            <p class="description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada vulputate nisi in fermentum. Vivamus ac libero quis nisi auctor pulvinar. Aenean sit amet lectus posuere, mattis massa eget, ullamcorper diam. Nunc sit amet felis eget arcu congue dictum. </p>
-            <h3 class="title">Pearl</h3>
-            <small class="post">- Engineer </small>
+            <div class="pic"> <img src="./img/santosh-kumar.png"> </div>
+            <p class="description">"I like the support from 11thavenuefoods, They always engourage with Good food, Good life.
+I am really thankful to 11thavenuefoods for briging new aprroach for new generation ,
+where every one have busy schedule with no proper time to have food items." </p>
+            <h3 class="title">Santosh Kumar</h3>
+            <small class="post">- Software Engineer </small>
           </div>
-          <div class="testimonial">
-            <div class="pic"> <img src="https://images.pexels.com/photos/531139/pexels-photo-531139.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"> </div>
-            <p class="description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada vulputate nisi in fermentum. Vivamus ac libero quis nisi auctor pulvinar. Aenean sit amet lectus posuere, mattis massa eget, ullamcorper diam. Nunc sit amet felis eget arcu congue dictum. </p>
-            <h3 class="title">Kellie</h3>
-            <small class="post">- Graphic Designer</small>
-          </div>
+     
         </div>
       </div>
     </div>
