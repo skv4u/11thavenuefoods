@@ -9,7 +9,7 @@
   </ol>
 -->
   <div class="carousel-inner">
-    <div class="carousel-item active"> <img src="./img/slider-1.png" class=" w-100" alt="...">
+    <div class="carousel-item active"> <img src="./img/slider-1.jpg" class=" w-100" alt="...">
       <div class="carousel-caption">
         <h1>Live With Organic Food</h1>
         <h1>Live Healthy</h1>
