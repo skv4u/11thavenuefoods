@@ -13,7 +13,7 @@
       <div class="carousel-caption">
         <h1>Live With Organic Food</h1>
         <h1>Live Healthy</h1>
-        <p>Your journey to ta healthier life starts here.</p>
+        <p>Your journey to a healthier life starts here.</p>
         <a class="default-btn" href="./rice">Read More<span></span></a>
       </div>
     </div>

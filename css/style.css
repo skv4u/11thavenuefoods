@@ -440,6 +440,13 @@ address {
     .nav-link {
         color: #fff !important;
     }
+    .nav-link a {
+    
+        padding: 5px;
+        line-height: 2em;
+        width: 100%;
+        display: inline-block;
+    }
     .nav-link.active {
         color: #000 !important;
     }
