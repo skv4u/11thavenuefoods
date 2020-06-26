@@ -25,7 +25,7 @@
         <p>
           We support local farmers and we give our best training to them in organic farming to grow our products the way it is intended to be grown. Knowledge and exposure to farm life will help invest future generations in local agriculture.</p>
 
-        <h3 class="mt-5 mb-4">Organic Forming</h3>
+        <h3 class="mt-5 mb-4">Organic Farming</h3>
         <p>
           Organic farming is a form of agriculture that relies on sustainable techniques to enhance the natural fertility of a farm, including crop rotation, companion planting, biological pest control, and naturally-sourced fertilizers such as compost, manure, green manure, and bone meal.</p>
         <p>
