@@ -138,7 +138,7 @@ $(document).ready(function() {
 
 
         $.ajax({
-            url: "https://11thavenuefoods.com/demo5/email.php",
+            url: "https://11thavenuefoods.com/email.php",
             type: 'POST',
             contentType: 'application/json',
             data: JSON.stringify(req),

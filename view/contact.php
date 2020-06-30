@@ -27,7 +27,7 @@
         <h6><i class="fa fa-envelope"></i> Email :</h6>
         <p>business@11thavenuefoods.com</p>
         <h6><i class="fa fa-globe"></i> Website :</h6>
-        <p>www.11thavenufood.com</p>
+        <p>www.11thavenuefoods.com</p>
       </div>
       <div class="col-md-6">
         <h3 class="mb-4">Contact Us</h3>

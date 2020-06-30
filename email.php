@@ -10,7 +10,7 @@ header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers
 // get posted data
 $data = json_decode(file_get_contents("php://input"));
 
-$to = "santosh8935@gmail.com,cvgiree@axiscreative.in";
+$to = "sri@11thavenuefoods.com,santosh8935@gmail.com,cvgiree@axiscreative.in";
 // $to = "santosh8935@gmail.com
 
 $subject = $data->Subject;

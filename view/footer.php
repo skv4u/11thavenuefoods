@@ -3,7 +3,7 @@
    <div class="container">
       <div class="row">
          <div class="col-md-4 text-center">
-            <img src="./img/logo.png" class="pb-4">
+            <img src="./img/logo-bottom.png" style="width:150px" class="pb-4">
             <p class="pr-4">Time Tested Traditional
                Methods Of Cultivation,
                Irrigation And Processing

@@ -5,7 +5,7 @@ if (!file_exists('view/' . $page . '.php'))
 
     $page = 'home';
 }
-$BASE_URL = "https://11thavenuefoods.com/demo5/";
+$BASE_URL = "https://11thavenuefoods.com/";
 $meta = array(
     "home" => array(
         "title" => "Wholesale Organic Juice Pulps &amp; Rice | 11th Avenue Foods",
@@ -58,7 +58,7 @@ $meta = array(
     ),
     "contact" => array(
         "title" => "Connect With Your Rice &amp; Fruit Supplier | 11th Avenue Foods",
-        "desc" => "11th Avenue Foods 13 Deborah Dr, Somerset NJ 08873| +17327986726 | business@11thavenuefoods.com | www.11thavenufood.com",
+        "desc" => "11th Avenue Foods 13 Deborah Dr, Somerset NJ 08873| +17327986726 | business@11thavenuefoods.com | www.11thavenuefoods.com",
         "url" => $BASE_URL . $page,
         "image" => $BASE_URL . "img/service-banner.png",
         "image_type" => "image/png"
